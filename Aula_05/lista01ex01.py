@@ -2,7 +2,7 @@ import math
 # Model
 class Circulo:
     def __init__(self):
-        self.raio = 0    # atributos ficam escondidos
+        self.raio = 0  
     def area(self):
         return math.pi * self.raio ** 2
     def circunferencia(self):
