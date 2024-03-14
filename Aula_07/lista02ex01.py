@@ -1,9 +1,12 @@
 import math
 # modelo
 class Circulo:  
-    def __init__(self):     # construtor
-        self.__raio = 0
-    def set_raio(self, r):  # métodos de acesso
+    def __init__(self, r):     # construtor
+        self.__raio = r
+        if r < 0: raise ValueError()
+    def __str__(self):    # ToString
+        return f"Eu sou um círculo de raio = {self.__raio}"
+    def set_raio(self, r):     # métodos de acesso
         if r < 0: raise ValueError()
         self.__raio = r
     def get_raio(self):
@@ -24,11 +27,13 @@ class UI: # html, xml
     def novo_circulo():
         print("Você escolheu Círculo")
         r = float(input("Informe o raio do círculo: "))
-        x = Circulo()
-        x.set_raio(r)
+        #x = Circulo()
+        x = Circulo(r)
+        #x.set_raio(r)
         print(f"Raio = {x.get_raio()}")
         print(f"Área = {x.calc_area()}")
         print(f"Circ = {x.calc_area()}")
+        print(x)
     def main():
         op = 0
         while op != 9:
