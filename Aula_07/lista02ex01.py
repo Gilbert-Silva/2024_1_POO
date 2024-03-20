@@ -51,7 +51,9 @@ class UI: # html, xml
         print(x.get_raio())      #get
         print(y.get_raio())
         print(x.calc_area())
-        print(x.calc_circ())
-        """   
+        print(x.calc_circ())        """   
 
-UI.main()
+UI.main()  # Java e C# - Classe estática
+#x = UI()
+#x.main()
+
