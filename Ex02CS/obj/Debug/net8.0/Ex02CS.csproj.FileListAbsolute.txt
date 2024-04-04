@@ -1,0 +1,15 @@
+C:\Python\2024_1_POO\Ex02CS\obj\Debug\net8.0\Ex02CS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Python\2024_1_POO\Ex02CS\obj\Debug\net8.0\Ex02CS.AssemblyInfoInputs.cache
+C:\Python\2024_1_POO\Ex02CS\obj\Debug\net8.0\Ex02CS.AssemblyInfo.cs
+C:\Python\2024_1_POO\Ex02CS\obj\Debug\net8.0\Ex02CS.csproj.CoreCompileInputs.cache
+C:\Python\2024_1_POO\Ex02CS\obj\Debug\net8.0\Ex02CS.sourcelink.json
+C:\Python\2024_1_POO\Ex02CS\bin\Debug\net8.0\Ex02CS.exe
+C:\Python\2024_1_POO\Ex02CS\bin\Debug\net8.0\Ex02CS.deps.json
+C:\Python\2024_1_POO\Ex02CS\bin\Debug\net8.0\Ex02CS.runtimeconfig.json
+C:\Python\2024_1_POO\Ex02CS\bin\Debug\net8.0\Ex02CS.dll
+C:\Python\2024_1_POO\Ex02CS\bin\Debug\net8.0\Ex02CS.pdb
+C:\Python\2024_1_POO\Ex02CS\obj\Debug\net8.0\Ex02CS.dll
+C:\Python\2024_1_POO\Ex02CS\obj\Debug\net8.0\refint\Ex02CS.dll
+C:\Python\2024_1_POO\Ex02CS\obj\Debug\net8.0\Ex02CS.pdb
+C:\Python\2024_1_POO\Ex02CS\obj\Debug\net8.0\Ex02CS.genruntimeconfig.cache
+C:\Python\2024_1_POO\Ex02CS\obj\Debug\net8.0\ref\Ex02CS.dll
