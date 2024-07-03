@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\gilbe_3wmczkt\\.nuget\\packages\\": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Python\\2024_1_POO\\Ex02CS\\Ex02CS.csproj",
+      "projectUniqueName": "/workspaces/2024_1_POO/Ex02CS/Ex02CS.csproj",
       "projectName": "Ex02CS",
-      "projectPath": "C:\\Python\\2024_1_POO\\Ex02CS\\Ex02CS.csproj",
-      "packagesPath": "C:\\Users\\gilbe_3wmczkt\\.nuget\\packages\\",
-      "outputPath": "C:\\Python\\2024_1_POO\\Ex02CS\\obj\\",
+      "projectPath": "/workspaces/2024_1_POO/Ex02CS/Ex02CS.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/2024_1_POO/Ex02CS/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gilbe_3wmczkt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -59,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
