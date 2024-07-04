@@ -9,3 +9,6 @@ x.b = double.Parse(Console.ReadLine());            // x.b = float(input())
 Console.WriteLine("Informe o valor da altura: ");
 x.h = double.Parse(Console.ReadLine());
 Console.WriteLine(x.CalcArea());
+
+Console.WriteLine(Math.PI);
+
