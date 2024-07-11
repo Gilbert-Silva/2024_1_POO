@@ -24,11 +24,12 @@ class Historico:
     def listar(self):
         return self.__disciplinas
     def listar_semestre(self, semestre):
-        x = []
-        for disc in self.__disciplinas:
-            if disc.get_semestre() == semestre:
-                x.append(disc)
-        return x        
+        #x = []
+        #for disc in self.__disciplinas:
+        #    if disc.get_semestre() == semestre:
+        #        x.append(disc)
+        #return x   
+        return [disc for disc in self.__disciplinas if disc.get_semestre() == semestre]     
     def IRA(self):
         if len(self.__disciplinas) == 0: return 0
         soma = 0
