@@ -1,15 +1,16 @@
 import streamlit as st
-from retangulo import Retangulo
 
-class InicioUI:
+class Index:
     def main():
-        st.header("Cálculo com Retângulo")
-        b = st.text_input("Informe o valor da base")
-        h = st.text_input("Informe o valor da altura")
-        if st.button("Calcular"):
-            r = Retangulo(float(b), float(h))
-            st.write(r)
-            st.write(r.calc_area())
-            st.write(r.calc_diagonal())
+        pages = {
+            "Opções": [
+                st.Page("retanguloUI.py", title="Retângulo"),
+                st.Page("equacaoUI.py", title="Equação"),
+            ]
+        }
 
-InicioUI.main()            
+        pg = st.navigation(pages)
+        pg.run()
+
+Index.main()
+           
