@@ -1,4 +1,4 @@
-from view import View
+from views import View
 
 class UI:
     @staticmethod

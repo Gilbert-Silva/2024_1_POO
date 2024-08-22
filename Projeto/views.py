@@ -1,4 +1,4 @@
-from cliente import Cliente, Clientes
+from models.cliente import Cliente, Clientes
 
 class View:
     @staticmethod
