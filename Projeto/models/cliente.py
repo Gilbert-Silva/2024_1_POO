@@ -3,6 +3,8 @@ import json
 # Modelo - POJO POCO
 class Cliente:
     def __init__(self, id, nome, email, fone):
+        if nome == "": raise ValueError("Nome inválido")
+        if email == "": raise ValueError("E-mail inválido")
         self.id = id
         self.nome = nome
         self.email = email
@@ -66,9 +68,12 @@ class Clientes:
     @classmethod
     def abrir(cls):
         cls.objetos = []
-        with open("../clientes.json", mode="r") as arquivo:
-            texto_arquivo = json.load(arquivo)
-            for obj in texto_arquivo:
-                c = Cliente(obj["id"], obj["nome"], obj["email"], obj["fone"])
-                cls.objetos.append(c)       
+        try:
+          with open("../clientes.json", mode="r") as arquivo:
+              texto_arquivo = json.load(arquivo)
+              for obj in texto_arquivo:
+                  c = Cliente(obj["id"], obj["nome"], obj["email"], obj["fone"])
+                  cls.objetos.append(c)
+        except FileNotFoundError:
+          pass                   
 

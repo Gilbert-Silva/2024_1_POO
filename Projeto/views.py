@@ -3,6 +3,8 @@ from models.cliente import Cliente, Clientes
 class View:
     @staticmethod
     def cliente_inserir(nome, email, fone):
+        if nome == "": raise ValueError("Nome inválido")
+        if email == "": raise ValueError("E-mail inválido")
         a = Cliente(0, nome, email, fone)
         Clientes.inserir(a)
     @staticmethod
