@@ -16,7 +16,7 @@ class View:
         Clientes.atualizar(a)
     @staticmethod
     def cliente_excluir(id):
-        a = Cliente(id, "", "", "")
+        a = Cliente(id, "semnome", "sememail", "")
         Clientes.excluir(a)
 
 
